@@ -3,7 +3,7 @@ site_description: Documents transversals de l'oficina d'Arquitectura del CatSalu
 plugins:
   - techdocs-core
   - kroki:
-      server_url: !ENV [ KROKI_SERVER_URL, 'https://kroki.io' ]!ENV [ KROKI_SERVER_URL, 'http://localhost:8000' ]
+      server_url: !ENV [ KROKI_SERVER_URL, 'http://localhost:8000' ]
       OperatingMode: 'embedded'
       FencePrefix: 'kroki-'
 
