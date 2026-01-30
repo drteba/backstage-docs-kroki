@@ -5,7 +5,7 @@ plugins:
   - kroki:
       server_url: !ENV [ KROKI_SERVER_URL, 'http://localhost:8000' ]
       OperatingMode: 'embedded'
-      FencePrefix: 'kroki-'
+      #FencePrefix: 'kroki-'
 
 nav:
   - Getting Started: index.md
