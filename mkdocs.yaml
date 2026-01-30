@@ -1,12 +1,11 @@
 site_name: Documentació tècnica CatSalut
 site_description: Documents transversals de l'oficina d'Arquitectura del CatSalut
 plugins:
-  - techdocs-core
   - kroki:
       server_url: !ENV [ KROKI_SERVER_URL, 'http://localhost:8000' ]
       #OperatingMode: 'embedded'
       #FencePrefix: 'kroki-'
-
+  - techdocs-core
 nav:
   - Getting Started: index.md
   - Mermaid sample: sample-mermaid.md
