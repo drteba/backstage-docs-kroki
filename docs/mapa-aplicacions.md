@@ -1046,7 +1046,10 @@ workspace "CATSALUT" "Sistemes ARGOS i HES (Quique)" {
     }
 
     views {
-    
+        systemLandscape   "Diagram1" {
+            include *
+            autoLayout tb
+        }
         styles {
             relationship "DatabaseRelation" {
                 color #008000 
