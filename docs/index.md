@@ -1,7 +1,7 @@
 ## System Architecture
 Below is the C4 Level 2 diagram rendered directly from DSL.
 
-```structurizr
+```kroki-structurizr
 workspace {
     model {
         user = person "User"
